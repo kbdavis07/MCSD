@@ -1,4 +1,6 @@
 #MCSD
+
+[![Join the chat at https://gitter.im/kbdavis07/MCSD](https://badges.gitter.im/kbdavis07/MCSD.svg)](https://gitter.im/kbdavis07/MCSD?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Microsoft Certified Solutions Developer: Web Applications
 
 
