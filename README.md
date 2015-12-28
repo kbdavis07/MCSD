@@ -11,12 +11,8 @@ This is a collection of resources that I am using to study for the MCSD Exams.
 
 **This is a work in process so be sure to star this project and check back soon for updates.**
 
-If you have anything to add please fork this project and create a pull request when ready.
+If you have anything to add please fork this project and then create a pull request when you are ready.
 
-<button type="submit" class="btn btn-sm btn-with-count" data-ga-click="Repository, show fork modal, action:files#disambiguate; text:Fork" title="Fork your own copy of kbdavis07/MCSD to your account" aria-label="Fork your own copy of kbdavis07/MCSD to your account">
-              <span class="octicon octicon-repo-forked "></span>
-              Fork
-            </button>
 
 
 
@@ -53,6 +49,13 @@ If you have anything to add please fork this project and create a pull request w
 
 ---
 
+
+
 Have a great day!  :smile:
 
 
+
+
+
+---
+#####Last Update: 12/28/2015 5:53:23 AM 
