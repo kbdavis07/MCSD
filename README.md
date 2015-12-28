@@ -36,15 +36,6 @@ If you have anything to add please fork this project and create a pull request w
 
 
 
-##Things To Do
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
-- [x] list syntax is required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-
-
-
-
 
 
 
