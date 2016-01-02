@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>Bootstrap 101 Template</title>
 
+
     <!-- Bootstrap -->
-    
     <link href="../../../css/bootstrap-flatly.css" rel="stylesheet" />
+
+    <link href="../../../css/site.css" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,12 +20,25 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <base />
+
 </head>
+
+
+<!--http://www.w3.org/wiki/HTML_structural_elements#Enter_HTML5_structural_elements-->
+<!--http://www.w3.org/TR/html5/sections.html-->
+
+
+
 <body>
 
-    <header>
+<div class="container-fluid">
 
-            <nav class="navbar navbar-default" role="navigation">
+        <!--This is the Header for the Entire Page-->
+        <header id="Page">
+
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -51,12 +68,9 @@
                                 </ul>
                             </li>
                         </ul>
-                        <form class="navbar-form navbar-left" role="search">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                            </div>
-                            <button type="submit" class="btn btn-default">Submit</button>
-                        </form>
+
+
+
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#">Link</a></li>
                             <li class="dropdown">
@@ -73,29 +87,74 @@
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
-        
-    </header>
-
-    <section>
-
-        <header>
-        <h1>Bootstrap 101 Template</h1>
         </header>
 
-        <footer></footer>
-    </section>
+<div class="row">
 
 
-    <footer></footer>
+            <aside id="sidebar1" class="col-sm-2">
+                <p>Sidebar content goes in here </p>
+                <p>Sidebar content goes in here </p>
+                <p>Sidebar content goes in here </p>
+                <p>Sidebar content goes in here </p>
+                <p>Sidebar content goes in here </p>
+            </aside>
 
 
 
 
-    
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <main role="main" class="col-sm-6">
+
+                <hgroup>
+                    <h1>Page Heading</h1>
+                </hgroup>
+
+                <article id="Article-1">
+                    <header>
+                        <h2>Article #1 Header</h2>
+                    </header>
+
+                    <section class="content">
+                        <p>Article Content</p>
+                    </section>
+
+                    <footer>
+                        <p>Article #1 Footer</p>
+                    </footer>
+
+                </article>
+
+            </main>
+
+
+
+            <aside id="sidebar2" class="col-sm-2 col-md-push-1">
+                <p>Aside Content Goes Here</p>
+
+                <p>Data download is in progress, please wait patiently:</p>
+                <progress max="5"></progress>
+
+            </aside>
+
+        </div>
+
+        <footer id="Page">
+
+            <p>Page Footer</p>
+
+        </footer>
+
+
+
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</div>
 </body>
 </html>
