@@ -13,7 +13,8 @@ This is a collection of resources that I am using to study for the MCSD Exams.
 
 **This is a work in process so be sure to star this project and check back soon for updates.**
 
-If you have anything to add please fork this project and then create a pull request when you are ready.
+If you have anything to add please <a href="https://github.com/kbdavis07/MCSD/fork">Fork</a> this project and then create a pull request when you are ready.
+
 
 
 
